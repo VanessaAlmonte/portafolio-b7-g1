@@ -2,252 +2,216 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vanessa Almonte</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanessa Almonte</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <!-- cabezera d mi pagina -->
-    <header>
-        <nav class="container">
-            <header class="d-flex justify-content-center py-3">
-              <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-              </ul>
-            </header>
-          </nav>
-    </header>
+  <!-- cabezera d mi pagina -->
+  <header>
 
-    <main>
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-                        width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image
-                    </h1>
-                    <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                        world’s most popular front-end open source toolkit, featuring Sass variables and mixins,
-                        responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <nav class="navbar navbar-expand-md bg-black" data-bs-theme="bg-black">
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">Portafolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-    </main>
-
-
-    <section id="habilidades" class="container px-4 py-5">
-        <h2 class="pb-2 border-bottom">Columns with icons</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#people-circle"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg>
-                </a>
-            </div>
-            <div class="feature col">
-                <div
-                    class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-                    <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#toggles2"></use>
-                    </svg>
-                </div>
-                <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
-                    and probably just keep going until we run out of words.</p>
-                <a href="#" class="icon-link">
-                    Call to action
-                    <svg class="bi">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg>
-                </a>
-            </div>
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+        
+              <a class="nav-link active text-white" aria-current="page" href="#">Yo</a>
+            </li>
+            <li class="nav-item">
+              
+              <a class="nav-link text-white" href="#conocimientos">Conocimientos</a>
+            </li>
+            <li class="nav-item">
+           
+              <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              
+              <a class="nav-link text-white" href="#testimonios">Testimonios</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    </section>
+  </header>
+
+  <main>
+    <section id="Yo" class="container-fluid">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row- align-items-center g-5 py-5">
+          
+          <div class="col-lg-6 bg-black p-3 bg-opacity-50 rounded">
+            <h1 class="display-5 fw-bold text-white lh-1 mb-3">Vanessa Almonte
+            </h1>
+            <p class="lead text-white" >Estudiante de 8vo semestre de Diseño Industrial en la Universidad Iberoamericana de Torreón. 
+              Me encanta crear arte en diferentes medios, tanto tradicionales como digitales, y siempre busco explorar nuevas ideas y enfoques creativos en cada proyecto
+              con el fin de crecer y aprender en el mundo del diseño.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contacto</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4 text-white border-white">vanesvales@hotmail.com</button>
+            </div>
+          </div>
+      </div>
+    </div>
     </section>
 
-    <section id="proyectos" class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Custom cards</h2>
-    
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>Earth</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>3d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
+
+    <!-- conocimientos -->
+    <section id="conocimientos" class="container px-4 py-5">
+      <h1 class="pb-2 border-bottom"><b>Conocimientos</b></h1>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+        <div class="feature col">
+          <div
+          class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+          <i class="bi bi-palette"></i>
+        </div>
+          <h3 class="fs-2 text-body-emphasis">Arte Tradicional y Digital</h3>
+          <p>Conocimiento y experiencia en diversas técnicas artísticas como dibujo, pintura, y escultura, junto al manejo de
+            softwares digitales para ilustración y diseño gráfico.</p>
+          <a href="https://www.instagram.com/essavnx/" class="btn btn-outline-primary" role="button">Instagram</a>
+        </div>
+
+        <div class="feature col">
+          <div
+          class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+          <i class="bi bi-badge-3d"></i>
           </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>Pakistan</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>4d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
+          <h3 class="fs-2 text-body-emphasis">Modelado 3D</h3>
+          <p>Conocimiento en el modelado y renderizado de objetos en 5D, utilizando principalmente programas como Autodesk 3D Max y Rhino 3D.</p>
+        </div>
+
+        <div class="feature col">
+          <div
+          class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+          <i class="bi bi-bag-check"></i>
           </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>California</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>5d</small>
-                  </li>
-                </ul>
-              </div>
+          <h3 class="fs-2 text-body-emphasis">Diseño de Productos</h3>
+          <p>Conocimiento y experiencia en el diseño de muebles, empaques, productos Betterware, y la creación de nuevos espacios en el
+            Centro Universitario Ignaciano.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- proyectos -->
+    <section id="proyectos" class="container px-4 py-5">
+      <h1 class="pb-2 border-bottom"><b>Proyectos</b></h1>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+        <div class="col">
+          <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Empaque Art Toy </h3>
+              <p>Empaque interactivo inspirado en BTS Island: In the SEOM.</p>
             </div>
           </div>
         </div>
-      </section>
 
-      <section id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
-          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>
+        <div class="col">
+          <div id="proyecto-2"class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Render Empty Indigo</h3>
+              <p>Obra creada en Rhinoceros 3D y 3D Max.</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </section>
-    <footer>
 
-        <section class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-              <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+        <div class="col">
+          <div id="proyecto-3"class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+              <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Betterware</h3>
+              <p>Proyecto en colaboración con la marca Betterware para diseñar un accesorio de seguridad. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- testimonios -->
+
+    <section id="testimonios">
+      <h1 class="text-center my-5"><b>Testimonios</b></h1>
+      <div id="myCarousel" class="carousel slide carousel-dark mb-6 carousel-fade" 
+          data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+
+              <div class="carousel-item active">
+                  <article class="container text-center">
+                      <img class="rounded-5" src="imagenes/taylor.jpg" height="300" alt="Taylor Swift">
+                      <h3 class="my-3">Taylor Swift</h3>
+                      <p>"Vanessa es una apasionada por el diseño. Su creatividad y dedicación en cada proyecto es impresionante."</p>
+                  </article>
               </div>
-          
-              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi " width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi bi-instagram" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-              </ul>
-            </footer>
-      
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+              <div class="carousel-item">
+                  <article class="container text-center">
+                      <img class="rounded-5" src="imagenes/yoongi.jpg" height="300" alt="Yoongi Min">
+                      <h3 class="my-3">Yoongi Min</h3>
+                      <p>"Vanessa es muy creativa, tiene un talento natural para el diseño."</p>
+                  </article>
+              </div>
+
+              <div class="carousel-item">
+                  <article class="container text-center">
+                      <img class="rounded-5" src="imagenes/sabrina.jpg" height="300" alt="Sabrina Carpenter">
+                      <h3 class="my-3">Sabrina Carpenter</h3>
+                      <p>"Vanessa es una estudiante excepcional. Quiero que sea parte de mi equipo del tour."</p>
+                  </article>
+              </div>  
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </section>
+</main>
+
+    
+<!-- footer con contactoo -->
+    <footer id="Contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="8">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <p class="mt-5 text-white text-center texto-gigante">
+      <h4 id="frase" class="text-white text-center mb-5">"Life goes on"</h4>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Copyright</span>
+    </p>
+
+    </footer> 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
